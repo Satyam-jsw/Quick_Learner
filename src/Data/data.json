@@ -1,0 +1,59 @@
+{
+    "Operating System" :  [
+        {"ques":"What is Operating System?", "ans":"The operating system is a software program that facilitates computer hardware to communicate and operate with the software applications and it acts as an interface between the user and the computer hardware. It is the most important part of a computer system without it computer is just like a box"},
+        {"ques":"What is Deadlock?", "ans":"Deadlock is a situation when two or more processes wait for each other to finish and none of them ever finish. Consider an example when two trains are coming toward each other on same track and there is only one track, none of the trains can move once they are in front of each other. Similar situation occurs in operating systems when there are two or more processes hold some resources and wait for resources held by other(s)."},
+        {"ques":"What is Time-sharing system?", "ans":"In a Time-sharing system, the CPU executes multiple jobs by switching among them, also known as multitasking. This process happens so fast that users can interact with each program while it is running."},
+        {"ques":"Define Thoroughput.", "ans":"Throughput – number of processes that complete their execution per time unit. Turnaround time – amount of time to execute a particular process. Waiting time – amount of time a process has been waiting in the ready queue. Response time – amount of time it takes from when a request was submitted until the first response is produced, not output (for time-sharing environment)."},
+        {"ques":"What are the functions of operating system?",
+         "ans":"The operating system controls and coordinates the use of hardware among the different processes and applications. It provides the various functionalities to the users. The following are the main job of operating system."},
+        {"ques":"What Are Real-time Systems?", "ans":"Real-time systems are used when rigid time requirements have been placed on the operation of a processor. It has well defined and fixed time constraints."}, 
+        {"ques":"Explain the concept of Reentrancy?", "ans":"It is a useful, memory-saving technique for multiprogrammed timesharing systems. A Reentrant Procedure is one in which multiple users can share a single copy of a program during the same period. Reentrancy has 2 key aspects: The program code cannot modify itself, and the local data for each user process must be stored separately. Thus, the permanent part is the code, and the temporary part is the pointer back to the calling program and local variables used by that program. Each execution instance is called activation. It executes the code in the permanent part, but has its own copy of local variables/parameters. The temporary part associated with each activation is the activation record. Generally, the activation record is kept on the stack.Note: A reentrant procedure can be interrupted and called by an interrupting program, and still execute correctly on returning to the procedure."},
+        {"ques":"What is multi-programming, and what are the advantages?", "ans":"A multiprogramming operating system is one that allows a process where multiple programs execute over one CPU. If your interviewer asks OS questions on multiprogramming, you can highlight key differences between a multiprogramming OS and other systems.One way to display that you understand the benefits of multi-programming is to use a real-life example. By offering an instance when you used multi-programming to receive such benefits, you are displaying hands-on knowledge of a system that might be important to the interviewer."},
+        {"ques":"What is virtual memory?", "ans":"Virtual memory is a memory management method that helps to execute the process using the primary and secondary memory. Though the program gets executed using the main memory, the resources and pages load from the secondary memory."},
+        {"ques":"What is Thrashing?", "ans":"Thrashing is a situation when the performance of a computer degrades or collapses. Thrashing occurs when a system spends more time processing page faults than executing transactions. While processing page faults is necessary to in order to appreciate the benefits of virtual memory, thrashing has a negative affect on the system. As the page fault rate increases, more transactions need processing from the paging device. The queue at the paging device increases, resulting in increased service time for a page fault."},
+        {"ques":"What is the difference between micro kernel and macro kernel?", "ans":"Micro kernel: micro kernel is the kernel which runs minimal performance affecting services for operating system. In micro kernel operating system all other operations are performed by processor.Macro Kernel:Macro Kernel is a combination of micro and monolithic kernel."},
+        {"ques":"How Are Server Systems Classified?", "ans":"Server systems can be classified as either computer-server systems or file server systems. In the first case, an interface is made available for clients to send requests to perform an action. In the second case, provisions are available for clients to create, access and update files."}
+    ],
+    "Data Structures and Algorithms" : [
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}, 
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}
+    ],
+    "Object Oriented Programming":[
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}, 
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}
+    ],
+    "Database Management System":[
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}, 
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
+        {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}
+    ]
+}

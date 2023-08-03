@@ -1,0 +1,144 @@
+body {
+  /* background-color: rgb(8, 39, 240); */
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Flip Card Container */
+.flip-card {
+  display: flex;
+  justify-content: space-around;
+  /* max-width: 300px;  */
+  /* Set a maximum width to avoid stretching on larger screens */
+  margin: 1.5rem;
+  perspective: 1000px;
+  /* Defines the distance between the user and the z=0 plane */
+  cursor: pointer;
+}
+
+
+
+/* Flip Card Inner Container */
+.flip-card-inner {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  position: relative;
+  width: 25vw;
+  height: 12rem;
+  padding-bottom: 75%;
+  /* Maintain a 4:3 aspect ratio for the card */
+  transform-style: preserve-3d;
+  /* Preserve 3D transformation for child elements */
+  transition: transform 1s;
+  /* Apply smooth transition when flipping */
+}
+
+/* .flip-card-front :hover {
+  color: rgba(133, 117, 132, 0.67);
+  transform: scale(0.99);
+} */
+
+
+
+
+/* Front Side of the Card */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Hide the backside of the element */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #714fecf4;
+  border-radius: 15px;
+  /* Add some border-radius for a better look */
+  /* box-shadow: 0 4px 8px rgba(193, 46, 230, 0.1);  */
+  overflow-y: auto;
+  text-overflow: clip;
+}
+
+
+/* Back Side of the Card (initially hidden) */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Applied when the card is flipped */
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .flip-card {
+    max-width: 100%;
+  }
+
+  /* Adjust font size for smaller screens */
+  .flip-card-front h2,
+  .flip-card-back h2 {
+    font-size: 16px;
+  }
+}
+
+.head {
+  margin-bottom: 0px;
+  padding-bottom: -0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(13 6 45/var(--tw-text-opacity));
+  font-weight: 700;
+  font-size: 1rem;
+  border-bottom: 0.2rem dashed rgb(92, 76, 237);
+  width: 95%;
+}
+
+.ans {
+  display: flex;
+  width: 95%;
+  --tw-text-opacity: 1;
+  color: black;
+  font-size: 1rem;
+}
+
+.ques {
+  width: 95%;
+  height: 50%;
+  display: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  /* position: relative;
+  display: inline-block; */
+  font-size: 2em;
+  font-weight: 600;
+  color: rgb(65, 100, 207);
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 290ms ease;
+  text-decoration: none;
+  &:hover {
+    background-position: 0 100%;
+  }
+}
+
+.desc {
+  color: rgb(71, 0, 252);
+}
+
+.desc :hover {
+  color: black;
+  transform: scale(0.98);
+}

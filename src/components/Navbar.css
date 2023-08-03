@@ -1,0 +1,97 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #498eef;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .logo-name {
+    font-size: 1.2rem;
+  }
+  
+  .topics-container {
+    margin: 0 1rem;
+  }
+  
+  .topics-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .topic {
+    padding: 0.5rem;
+    color: #fff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    z-index: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+     
+  }
+  
+  .dropdown-content li {
+    margin-bottom: 0.5rem;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+ 
+  }
+
+
+  .Nav-right-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .auth-container :hover {
+    color: black;
+    
+  }
+  
+  /* Hover animation */
+  .dropdown-content li  {
+    transition: transform 0.3s ease;
+   
+  }
+  
+  .dropdown-content li :hover {
+    transform: scale(1.1);
+    color: rgb(25, 45, 221);
+    text-decoration: none;
+  }
+  
