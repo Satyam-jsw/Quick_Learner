@@ -23,7 +23,8 @@ const Routing = () => {
 
     <Route path = "/signin" element = {<Login />}>
     </Route>
-
+    <Route path = "/cards/:subject" element = {<Cards/>}>
+    </Route>
     {/* <Route path = "/topic" element = {<Topic />}>
     </Route> */}
 
@@ -39,7 +40,7 @@ const App = () => {
   return (
     <>
     <UserContext.Provider value = {{state,dispatch}}>
-        <Navbar />
+        <Navbar  />
         <Routing />
       </UserContext.Provider>
     </>

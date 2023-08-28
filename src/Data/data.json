@@ -14,7 +14,7 @@
         {"ques":"What is the difference between micro kernel and macro kernel?", "ans":"Micro kernel: micro kernel is the kernel which runs minimal performance affecting services for operating system. In micro kernel operating system all other operations are performed by processor.Macro Kernel:Macro Kernel is a combination of micro and monolithic kernel."},
         {"ques":"How Are Server Systems Classified?", "ans":"Server systems can be classified as either computer-server systems or file server systems. In the first case, an interface is made available for clients to send requests to perform an action. In the second case, provisions are available for clients to create, access and update files."}
     ],
-    "Data Structures and Algorithms" : [
+    "Data Structure and Algorithm" : [
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
@@ -42,7 +42,7 @@
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"}
     ],
-    "Database Management System":[
+    "DataBase Management System":[
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
         {"ques":"sdfkjasdblkasfbd ?", "ans":"dfksagkfsadgja"},
