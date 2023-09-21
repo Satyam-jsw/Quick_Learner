@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Navbar.css';
-
-import Cards from './Cards';
-// import from ''
-import { NavLink, Link, Navigate, useNavigate } from 'react-router-dom';
+import {ImBook} from 'react-icons/im'
+import { NavLink, Link, useNavigate } from 'react-router-dom';
 const Navbar = () => {
  
  const navigate = useNavigate(); 
@@ -11,29 +9,22 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo-container">
         <NavLink to="/" className="logo-link">
-          {/* <img src="xxxx" alt="Quick Learner Logo" className="logo" /> */}
-          <span className="FaBookBookmark">Quick Learner</span>
+          <span > <ImBook/> Quick Learner</span>
         </NavLink>
       </div>
       <div className="topics-container">
         <ul className="topics-list">
           <li className="dropdown">
             <span className="topic">Topics</span>
-            {/* <select >
-              <option value={"Operating System"}>Operating System</option>
-              <option value={'Data Structures and Algorithms'}>Data Structures and Algorithms</option>
-              <option value={"Object Oriented Programming"}>Object Oriented Programming</option>
-              <option value={'Database Management System'}>Database Management System</option>
-            </select> */}
             <ul className="dropdown-content">
             <li>
-              <Link to="/cards/Operating%20System">Operating system</Link>
+              <NavLink to="/cards/Operating%20System" className="jio">Operating system</NavLink>
             </li>
             <li>
-              <Link to="/cards/DataBase%20Management%20System">Database Management system</Link>
+              <NavLink to="/cards/DataBase%20Management%20System" className="jio">Database Management system</NavLink>
             </li>
             <li>
-              <Link to="/cards/Data%20Structure%20and%20Algorithm">Data Structure and Algorithm</Link>
+              <NavLink to="/cards/Data%20Structure%20and%20Algorithm" className="jio">Data Structure and Algorithm</NavLink>
             </li>
           </ul>
           </li>

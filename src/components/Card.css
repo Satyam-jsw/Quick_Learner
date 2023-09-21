@@ -25,7 +25,7 @@ body {
   background-color: rgb(255 255 255/var(--tw-bg-opacity));
   position: relative;
   width: 25vw;
-  height: 12rem;
+  height: 8rem;
   padding-bottom: 75%;
   /* Maintain a 4:3 aspect ratio for the card */
   transform-style: preserve-3d;

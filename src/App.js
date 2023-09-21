@@ -27,7 +27,6 @@ const Routing = () => {
     </Route>
     {/* <Route path = "/topic" element = {<Topic />}>
     </Route> */}
-
     <Route path = "/logout" element = {<Logout />}>
     </Route>
   </Routes>
